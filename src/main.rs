@@ -1,3 +1,12 @@
+extern crate termion;
+
 fn main() {
-    println!("Hello, world!");
+    let room = String::from("#######
+#.....#
+#.....#
+#.....#
+#.....#
+#.....#
+#######");
+    println!("{}", room);
 }
